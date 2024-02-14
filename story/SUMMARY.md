@@ -1,4 +1,4 @@
-# Wolvesville: From the Book of Saw
+# Saw: Wolvesville
 
 - [Main characters](Main_Characters.md)
 - [Chapter I. Corruptor](corruptor/README.md)

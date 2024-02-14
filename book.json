@@ -1,6 +1,6 @@
 {  
-  "title": "Wolvesville: From the Book of Saw",
-  "description": "Saw: From the Book of Wolvesville",
+  "title": "Saw: Wolvesville",
+  "description": "Saw: Wolvesville",
   "author": "corruptorhax",
   "root": "./story",
   "hidepageheaders": [1, 2, 3, 10, 40],

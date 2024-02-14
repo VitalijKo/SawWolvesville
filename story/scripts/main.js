@@ -7,7 +7,7 @@ function play(filename) {
 }
 
 function music(title) {
-  if (title.includes('Introduction')) play('serial-killer.mp3');
+  if (title.includes('Introduction')) play('main.mp3');
 
   else if (title.includes('Corruptor')) play('corruptor.mp3');
 
