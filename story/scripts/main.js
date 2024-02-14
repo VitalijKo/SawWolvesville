@@ -1,0 +1,30 @@
+var audio = new Audio();
+
+function play(filename) {
+    audio.pause();
+    audio.src = '/audio/' + filename;
+    audio.play();
+}
+
+function music(title) {
+  if (title.includes('Introduction')) play('serial-killer.mp3');
+
+  else if (title.includes('Corruptor')) play('corruptor.mp3');
+
+  else if (title.includes('Evil Detective')) play('evil-detective.mp3');
+
+  else if (title.includes('Arsonist')) play('arsonist.mp3');
+
+  else if (title.includes('Illusionist')) play('illusionist.mp3');
+
+  else audio.pause();
+}
+
+music(document.title);
+
+new MutationObserver((mutations) => {
+    music(mutations[0].target.textContent);
+}).observe(
+    document.querySelector('title'),
+    { subtree: true, characterData: true, childList: true }
+);
