@@ -158,7 +158,7 @@ Tears were now running down all over his face. However, he continued to smile. A
 
 <br>
 
-**Your laughter on my to-one, knocking at the do-or.**
+**Your laughter's on my ringtone, knocking at the do-or.**
 
 **Talking 'bout feelings, you're blushing like a ne-on.**
 
