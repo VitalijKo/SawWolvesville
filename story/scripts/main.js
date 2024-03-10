@@ -17,6 +17,10 @@ function music(title) {
 
   else if (title.includes('Illusionist')) play('illusionist.mp3');
 
+  else if (title.includes('Bomber')) play('bomber.mp3');
+
+  else if (title.includes('Main Characters')) pass;
+
   else audio.pause();
 }
 

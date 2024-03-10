@@ -1,5 +1,7 @@
 ## TODAY
 
+<br>
+
 **check_me:** It's been exactly one month since you became a guardian of this game, *Guardian #27*. Congratulations to you!
 
 **disappointed:** Yes, congratulations on your first successful month!

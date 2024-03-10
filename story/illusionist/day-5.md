@@ -300,6 +300,6 @@ A couple of seconds, and Vitaly understood everything.
 
 **1 zephyte:** GAME OVER.
 
-***The villagers lynched 6 hack3r (Illusionist).***
+***The villager killed 6 hack3r (Illusionist).***
 
 **The villagers won.**

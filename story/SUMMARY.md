@@ -1,6 +1,6 @@
 # Saw: Wolvesville
 
-- [Main characters](Main_Characters.md)
+- [Main Characters](Main_Characters.md)
 - [Chapter I. Corruptor](corruptor/README.md)
   - [1 MONTH AGO](corruptor/1-month-ago.md)
   - [1 YEAR AGO](corruptor/1-year-ago.md)
@@ -41,4 +41,13 @@
   - [DAY 4](illusionist/day-4.md)
   - [DAY 5](illusionist/day-5.md)
   - [ENDING](illusionist/ending.md)
-- Chapter V. Coming soon...
+- [Chapter V. Bomber](bomber/README.md)
+  - [1 HOUR AFTER THE GAME](bomber/1-hour-after.md)
+  - [BEGINNING](bomber/beginning.md)
+  - [DAY 1](bomber/day-1.md)
+  - [DAY 2](bomber/day-2.md)
+  - [DAY 3](bomber/day-3.md)
+  - [DAY 4](bomber/day-4.md)
+  - [DAY 5](bomber/day-5.md)
+  - [ENDING](bomber/ending.md)
+- To be continued..?

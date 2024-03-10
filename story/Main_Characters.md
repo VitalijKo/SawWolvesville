@@ -1,4 +1,4 @@
-# Main characters
+# Main Characters
 
 **The_Loki / EvilDetective / kill3r / hack3r (Vitaly)**
 
@@ -15,3 +15,5 @@
 **5w6 (Elsem)**
 
 **zephyte (Gökçe)**
+
+**Jumana (Abigail)**
