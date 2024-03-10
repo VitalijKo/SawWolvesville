@@ -18,7 +18,7 @@ One by one, they began to burn.
 
 Only three left alive: Vitaly, his friend, and the detective.
 
-**12 kill3r:** Hello, *Elsem*. Are you here?
+**12 kill3r:** Hello, *Eslem*. Are you here?
 
 **12 kill3r:** ARE YOU HERE??? OR SHOULD I CALL YOU BY YOUR NUMBER, 16???
 

@@ -1,6 +1,6 @@
 # Main Characters
 
-**The_Loki / EvilDetective / kill3r / hack3r (Vitaly)**
+**The_Loki / EvilDetective / kill3r / hack3r / GLITCH (Vitaly)**
 
 **disappointed (Sanjit)**
 
@@ -12,7 +12,7 @@
 
 **Pandacake (Emilia)**
 
-**5w6 (Elsem)**
+**5w6 (Eslem)**
 
 **zephyte (Gökçe)**
 
