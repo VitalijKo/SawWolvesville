@@ -19,6 +19,8 @@ function music(title) {
 
   else if (title.includes('Bomber')) play('bomber.mp3');
 
+  else if (title.includes('Cannibal')) play('cannibal.mp3');
+
   else if (title.includes('Main Characters')) pass;
 
   else audio.pause();

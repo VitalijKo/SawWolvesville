@@ -24,7 +24,7 @@ Only four players left: 1, 4, 12, 16. During the night, the werewolves tried to 
 
 **7 noellee:** What is he talking about?
 
-**4 The_Loki** Oh, my God. It was all just your game.
+**4 The_Loki** Omg... It was all just your game.
 
 **16 cruel:** What are you saying?
 
