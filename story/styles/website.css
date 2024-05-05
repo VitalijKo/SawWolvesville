@@ -12,7 +12,7 @@ img, iframe {
 }
 
 p {
-  margin-bottom: 2em !important;
+  margin-bottom: 1em !important;
 }
 
 li:not([data-path]) {
@@ -63,7 +63,7 @@ li:not([data-path]) {
 
 .book .book-header .font-settings .font-enlarge {
   line-height: 30px;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 .book .book-header .font-settings .font-reduce {
@@ -85,7 +85,7 @@ li:not([data-path]) {
 }
 
 .book.font-size-1 .book-body .page-inner section {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .book.font-size-2 .book-body .page-inner section {
