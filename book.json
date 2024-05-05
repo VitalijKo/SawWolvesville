@@ -1,0 +1,37 @@
+{  
+  "title": "Saw: Wolvesville",
+  "description": "Saw: Wolvesville",
+  "root": "./story",
+  "hidepageheaders": [1, 2, 3, 10, 40],
+  "hidepagefooters": [1, 2, 3, 10, 40],
+  "plugins": [
+    "chapter-fold",
+    "custom-favicon",
+    "hide-published-with",
+    "pageview-count",
+    "scripts"
+  ],
+  "pdf": {
+    "pageNumbers": true,
+    "margin": {
+      "right": 32,
+      "left": 32
+    }
+  },
+  "pluginsConfig": {
+    "favicon": "favicon.ico",
+    "fontsettings": {
+        "theme": "night",
+        "family": "sans",
+        "size": 2
+    },
+    "styles": {
+      "website": "styles/website.css"
+    },
+    "scripts": {
+      "files": [
+        "scripts/main.js"
+      ]
+    }
+  }
+}

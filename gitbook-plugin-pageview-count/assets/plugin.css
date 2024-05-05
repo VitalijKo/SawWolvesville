@@ -1,0 +1,13 @@
+.page-view-wrapper svg {
+  margin-top: 16.5px;
+}
+
+.page-view-wrapper .btn {
+  display: inline-block;
+}
+
+.page-view-counter {
+  display: inline-block;
+  font-size: 12px;
+  margin-left: -12px;
+}

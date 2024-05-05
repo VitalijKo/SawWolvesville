@@ -1,0 +1,22 @@
+{
+  "name": "saw-wolvesville",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "honkit serve",
+    "build": "honkit build",
+    "pdf": "honkit pdf",
+    "epub": "honkit epub",
+    "mobi": "honkit mobi"
+  },
+  "devDependencies": {
+    "gitbook-plugin-chapter-fold": "^0.0.4",
+    "gitbook-plugin-hide-published-with": "0.0.1",
+    "honkit": "^4.0.4"
+  },
+  "dependencies": {
+    "gitbook-plugin-custom-favicon": "^0.0.4",
+    "gitbook-plugin-pageview-count": "^1.0.1",
+    "gitbook-plugin-scripts": "^1.0.2"
+  }
+}

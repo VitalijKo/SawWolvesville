@@ -1,0 +1,40 @@
+{
+  "name": "gitbook-plugin-fontsettings",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "lessc ./less/website.less > ./assets/website.css;"
+  },
+  "engines": {
+    "gitbook": ">=2.4.0"
+  },
+  "gitbook": {
+    "properties": {
+      "theme": {
+        "type": "string",
+        "default": "night",
+        "title": "Default theme",
+        "enum": [
+          "night"
+        ]
+      },
+      "family": {
+        "type": "string",
+        "default": "sans",
+        "title": "Default font family",
+        "enum": [
+          "sans",
+          "serif"
+        ]
+      },
+      "size": {
+        "type": "number",
+        "default": 2,
+        "title": "Default font size",
+        "min": 1,
+        "max": 4
+      }
+    }
+  }
+}
