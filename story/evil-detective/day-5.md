@@ -60,7 +60,30 @@ The voting has begun. In a rage, Vitaly immediately chose Life.
 
 **13 life:** I do, Vitaly. And you know it.
 
-**8 EvilDetective:** It's just a little bit more and it's game over...
+**8 EvilDetective:** It's just a little bit more. And it's game over...
+
+<div class="player-wrapper" style="margin-top: 10px; margin-bottom: 20px;">
+	<div class="player-btn">
+	  <div class="player-btn-particles">
+	    <div class="player-btn-particle player-btn-particle--one"></div>
+	    <div class="player-btn-particle player-btn-particle--second"></div>
+	    <div class="player-btn-particle player-btn-particle--third"></div>
+	    <div class="player-btn-particle player-btn-particle--fourth"></div>
+	  </div>
+	  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="player-btn-icon">
+	    <path class="svg-play" fill="transparent" d="M90 50 L30 15 L30 160 L170 100 L130 75"/>
+	  </svg>
+	</div>
+    <svg class="svg-hidden" xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="fancy-goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+          <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+      </defs>
+    </svg>
+</div>
 
 **13 life:** You think you're in an advantageous position right now. But you're not. And I'm giving you a choice. You can let me vote you out and lynch you. Then we'll be together again. But you can also try to kill me by voting me out.
 

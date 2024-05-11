@@ -190,6 +190,29 @@ Tears were now running down all over his face. However, he continued to smile. A
 
 **...**
 
+<div class="player-wrapper" style="margin-bottom: 50px;">
+	<div class="player-btn">
+	  <div class="player-btn-particles">
+	    <div class="player-btn-particle player-btn-particle--one"></div>
+	    <div class="player-btn-particle player-btn-particle--second"></div>
+	    <div class="player-btn-particle player-btn-particle--third"></div>
+	    <div class="player-btn-particle player-btn-particle--fourth"></div>
+	  </div>
+	  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="player-btn-icon">
+	    <path class="svg-play" fill="transparent" d="M90 50 L30 15 L30 160 L170 100 L130 75"/>
+	  </svg>
+	</div>
+    <svg class="svg-hidden" xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="fancy-goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+          <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+      </defs>
+    </svg>
+</div>
+
 **1 zephyte:** Omg...
 
 **6 hack3r:** I loved you, but this happened. And then I decided to get revenge on all of you.

@@ -2,11 +2,11 @@
 
 **1 GLITCH:** Well, we won?
 
-**2 Jumana** We won.
+**2 Jumana:** We won.
 
 **1 straykidz:** How come? There are 3 villagers and one bomber in the game. You can't break the rules, can you?
 
-**2 Jumana** No one canceled that. You must have been pretty dumb if you didn't realize that artificial intelligence analyzes everything in players. Same with us. It knew we were good friends. Knew all of our relationships. And knew I was the most likely to help him.
+**2 Jumana:** No one canceled that. You must have been pretty dumb if you didn't realize that artificial intelligence analyzes everything in players. Same with us. It knew we were good friends. Knew all of our relationships. And knew I was the most likely to help him.
 
 **2 Jumana:** Do you have the stream opened?
 
@@ -89,6 +89,29 @@ The sound of the gong hit Vitaly's ears. He slowly moved the cursor over to Juma
 Abigail voted him.
 
 *Gokce did the same.*
+
+<div class="player-wrapper" style="margin-bottom: 40px;">
+	<div class="player-btn">
+	  <div class="player-btn-particles">
+	    <div class="player-btn-particle player-btn-particle--one"></div>
+	    <div class="player-btn-particle player-btn-particle--second"></div>
+	    <div class="player-btn-particle player-btn-particle--third"></div>
+	    <div class="player-btn-particle player-btn-particle--fourth"></div>
+	  </div>
+	  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="player-btn-icon">
+	    <path class="svg-play" fill="transparent" d="M90 50 L30 15 L30 160 L170 100 L130 75"/>
+	  </svg>
+	</div>
+    <svg class="svg-hidden" xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="fancy-goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+          <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+      </defs>
+    </svg>
+</div>
 
 Vitaly was puzzled.
 

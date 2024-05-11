@@ -1,7 +1,5 @@
 require(['gitbook', 'jquery'], function(gitbook, $) {
-	var MAX_SIZE = 4,
-			MIN_SIZE = 0,
-			BUTTON_ID;
+	var MAX_SIZE = 4, MIN_SIZE = 0, BUTTON_ID;
 
 	var fontState;
 
@@ -58,6 +56,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     if (fontState.size >= MAX_SIZE) return;
 
 		fontState.size++;
+
 		saveFontSettings();
 	}
 
@@ -98,20 +97,15 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 	}
 
 	function getFontFamilyId(configName) {
-		var configFamily = $.grep(FAMILIES, (family) => {
-				return family.config == configName;
-		})[0];
+		var configFamily = $.grep(FAMILIES, (family) => family.config == configName)[0];
 
-    return (!!configFamily) ? configFamily.id : 0;
+    return !!configFamily ? configFamily.id : 0;
 	}
 
 	function getThemeId(configName) {
-		var configTheme = $.grep(THEMES, (theme) => {
-				return theme.config == configName;
-		})[0];
+		var configTheme = $.grep(THEMES, (theme) => theme.config == configName)[0];
 
-
-		return (!!configTheme) ? configTheme.id : 0;
+		return !!configTheme ? configTheme.id : 0;
 	}
 
 	function update() {
@@ -144,7 +138,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 	}
 
 	function updateButtons() {
-		if (!!BUTTON_ID) gitbook.toolbar.removeButton(BUTTON_ID);
+		if (BUTTON_ID) gitbook.toolbar.removeButton(BUTTON_ID);
 
 		BUTTON_ID = gitbook.toolbar.createButton({
 			icon: 'fa fa-font',
@@ -158,31 +152,29 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 						onClick: reduceFontSize
 					},
 					{
-							text: 'A',
-							className: 'font-enlarge',
-							onClick: enlargeFontSize
+						text: 'A',
+						className: 'font-enlarge',
+						onClick: enlargeFontSize
 					}
 				],
 				$.map(FAMILIES, (family) => {
-						family.onClick = (e) => changeFontFamily(family.config, e);
+					family.onClick = (e) => changeFontFamily(family.config, e);
 
-						return family;
+					return family;
 				}),
 				$.map(THEMES, (theme) => {
-						theme.onClick = (e) => changeColorTheme(theme.config, e);
+					theme.onClick = (e) => changeColorTheme(theme.config, e);
 						
-						return theme;
+					return theme;
 				})
   		]
 		});
 	}
 
 	gitbook.events.bind('start', (e, config) => {
-			var opts = config.fontsettings;
-
 			updateButtons();
 
-			init(opts);
+			init(config.fontsettings);
 	});
 
 	gitbook.fontsettings = {

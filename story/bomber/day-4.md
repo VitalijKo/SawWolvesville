@@ -78,7 +78,7 @@ Memories of the past flashed through the girl's mind, and she realized everythin
 
 **9 rwylm:** But what does mind 1 have to do with it? You said that this program needed his mind...
 
-**2 Jumana** 1 is very smart. A lot of people underestimated him in that regard and didn't realize how smart he really is. Without any programs, he thought out games down to the last detail. Knew every action. Knew what it could lead to. Knew every probability. He knew everything.
+**2 Jumana:** 1 is very smart. A lot of people underestimated him in that regard and didn't realize how smart he really is. Without any programs, he thought out games down to the last detail. Knew every action. Knew what it could lead to. Knew every probability. He knew everything.
 
 **2 Jumana:** Yes, he was always beaten. But how? By absurdities that even the smartest man on the planet couldn't think through. Everyone who defeated him was just lucky. Normally, they wouldn't stand a chance against him.
 

@@ -61,4 +61,3 @@
   - [ENDING](cannibal/ending.md)
 - [Chapter VII. Hypno](hypno/README.md)
 - 🔒 01.08.2024
-- 🔒 01.09.2024
