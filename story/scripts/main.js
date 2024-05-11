@@ -13,6 +13,8 @@ function loadThemeButton() {
   const button = document.querySelector('.player-btn');
   const icon = document.querySelector('.svg-play');
 
+  if (!button) return;
+
   button.addEventListener('click', () => {
     button.classList.toggle('active');
 
