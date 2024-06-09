@@ -1,3 +1,3 @@
-# Chapter VI. Cannibal
+# 🦴 Chapter VI. Cannibal
 
 ![Cannibal](Cannibal.jpg "Cannibal")

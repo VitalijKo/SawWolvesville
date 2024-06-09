@@ -1,3 +1,3 @@
-# Chapter VII. Hypno (COMING SOON)
+# 🎲 Chapter VII. Hypno (COMING SOON)
 
 ![Empty](Empty.jpg "Empty")
